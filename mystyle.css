@@ -1,19 +1,19 @@
 h1 {
     text-align: center;
-    border-style: solid;
+    border-style: none;
     padding: 10px;
     font-family: cursive;
-    background-color: rgb(247, 222, 192);
+    background-color: rgb(252, 224, 180);
 }
 fieldset {
     border-style:hidden;
-    background-color: rgb(189, 218, 253);
+    background-color: rgb(253, 219, 189);
 }
 body {
     background-image: url('./resources/library.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: initial;
+    background-attachment: fixed;
 }
 #mark {
     color: red;
