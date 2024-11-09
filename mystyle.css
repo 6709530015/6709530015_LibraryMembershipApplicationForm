@@ -2,13 +2,24 @@ h1 {
     text-align: center;
     border-style: solid;
     padding: 10px;
+    font-family: cursive;
+    background-color: rgb(154, 253, 253);
 }
 fieldset {
     border-style: dashed;
+    background-color: azure;
 }
 body {
-    background-image: resources("library.jpg");
+    background-image: url('./resources/library.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #mark {
     color: red;
+}
+legend {
+    font-weight: bold;
+    border-style: double;
+    background-color: white;
 }
