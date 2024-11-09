@@ -6,3 +6,9 @@ h1 {
 fieldset {
     border-style: dashed;
 }
+body {
+    background-image: resources("library.jpg");
+}
+#mark {
+    color: red;
+}
