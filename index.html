@@ -8,33 +8,114 @@
     <h1>Form For Library Membership</h1>
     <form action="">
     <p>
-        Name (Thai language)
-        <input type="text" name="thainame" size="15" maxlength="20">
+        <fieldset>
+            Name (Thai language) :
+            <input type="text" name="thainame" size="15" maxlength="20" required>
+        </fieldset>
 
-        Surname (Thai language)
-        <input type="text" name="thaisurname" size="15" maxlength="20">
+        <br>
 
-        Name (English)
-        <input type="text" name="engname" size="15" maxlength="20">
+        <fieldset>
+            Surname (Thai language) :
+            <input type="text" name="thaisurname" size="15" maxlength="20" required>
+        </fieldset>
 
-        Surname (English)
-        <input type="text" name=engsurname" size="15" maxlength="20">
+        <br>
 
-        Gender
+        <fieldset>
+            Name (English) :
+            <input type="text" name="engname" size="15" maxlength="20" required>
+        </fieldset>
 
-        Student Code
-        <input type="text" name=studentcode" size="15" maxlength="20">
+        <br>
 
-        Faculty
+        <fieldset>
+            Surname (English) :
+            <input type="text" name="engsurname" size="15" maxlength="20" required>
+        </fieldset>
 
-        E-mail Address
+        <br>
 
-        Birth Date
+        <fieldset>
+            Gender :
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="lgbtq+">LGBTQ+
+        </fieldset>
 
-        Your Favorite Type of the book
+        <br>
 
-        Do you accept permission to get information about library from e-mail?
+        <fieldset>
+            Student Code :
+            <input type="text" name="studentcode" size="15" maxlength="10" required>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            Faculty :
+            <select name="faculty">
+                <option value="law">Faculty of Law</option>
+                <option value="law">Faculty of Political Science</option>
+                <option value="law">Faculty of Economics</option>
+                <option value="law">Faculty of Social Administration</option>
+                <option value="law">Faculty of Sociology and Anthropology</option>
+                <option value="law">Faculty of Liberal Arts</option>
+                <option value="law">Faculty of Journalism and Mass Communication</option>
+                <option value="law">Faculty of Science and Technology</option>
+                <option value="law">Faculty of Engineering</option>
+                <option value="law">Faculty of Architecture and Planning</option>
+                <option value="law">Faculty of Medicine</option>
+                <option value="law">Faculty of Allied Health Sciences</option>
+                <option value="law">Faculty of Dentistry</option>
+                <option value="law">Faculty of Nursing</option>
+                <option value="law">Faculty of Public Health</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            E-mail Address :
+            <input type="email" name="email" required>
+        </fieldset>
+            
+        <br>
+
+        <fieldset>
+            Birth Date :
+            <input type="date" name="birthdate" required>
+        </fieldset>
+           
+        <br>
+
+        <fieldset>
+        <legend>Your favorite type of book</legend>
+        <input type="checkbox" name="typebook" value="scifi">Science Fiction <br>
+        <input type="checkbox" name="typebook" value="drama">Drama <br>
+        <input type="checkbox" name="typebook" value="mystery">Mystery <br>
+        <input type="checkbox" name="typebook" value="romance">Romance <br>
+        <input type="checkbox" name="typebook" value="action">Action & Adventure <br>
+        <input type="checkbox" name="typebook" value="fantasy">Fantasy <br>
+        <input type="checkbox" name="typebook" value="comic">Comic <br>
+        <input type="checkbox" name="typebook" value="horror">Horror <br>
+        <input type="checkbox" name="typebook" value="biography">Biography <br>
+        <input type="checkbox" name="typebook" value="history">Historical Story <br>
+        <input type="checkbox" name="typebook" value="other">Other: <input type="textbox" name="typebook">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            Do you accept permission to get information about library from e-mail? <br>
+            <input type="radio" name="info" value="yes">Yes
+            <input type="radio" name="info" value="no">No
+        </fieldset>
+
+        <br>
         
+        <input type="submit" name="submit" value="Submit">
+
     </p>
     </form>
 </body>
