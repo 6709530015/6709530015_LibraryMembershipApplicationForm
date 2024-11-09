@@ -3,23 +3,24 @@ h1 {
     border-style: solid;
     padding: 10px;
     font-family: cursive;
-    background-color: rgb(154, 253, 253);
+    background-color: rgb(247, 222, 192);
 }
 fieldset {
-    border-style: dashed;
-    background-color: azure;
+    border-style:hidden;
+    background-color: rgb(189, 218, 253);
 }
 body {
     background-image: url('./resources/library.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: initial;
 }
 #mark {
     color: red;
 }
 legend {
     font-weight: bold;
-    border-style: double;
+    border-style:solid;
     background-color: white;
+    padding: 5px;
 }
